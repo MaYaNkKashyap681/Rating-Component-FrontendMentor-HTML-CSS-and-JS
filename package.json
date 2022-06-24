@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaYaNkKashyap681/Rating-Component-FrontendMentor-HTML-CSS-and-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaYaNkKashyap681/Rating-Component-FrontendMentor-HTML-CSS-and-JS/issues"
+  },
+  "homepage": "https://github.com/MaYaNkKashyap681/Rating-Component-FrontendMentor-HTML-CSS-and-JS#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
