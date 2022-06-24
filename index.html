@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Interactive Rating</title>
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container rating-comp-container">
+        <div class="star-image-cont">
+          <img src="./images/icon-star.svg" class="star-image" />
+        </div>
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did this with your support request. All
+          feedback is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-option-cont">
+          <div class="rating-choice">1</div>
+          <div class="rating-choice">2</div>
+          <div class="rating-choice">3</div>
+          <div class="rating-choice active">4</div>
+          <div class="rating-choice">5</div>
+        </div>
+        <button class="submit-button">Submit</button>
+      </div>
+      <div class="inner-container thank-you-cont shower">
+        <img
+          src="images/illustration-thank-you.svg"
+          style="width: 140px; margin-bottom: 20px"
+        />
+        <span class="selected">You selected <span class="rating">4</span> out of 5</span>
+        <span class="thank-you" style="margin-top: 10px">Thank You!</span>
+        <p style="text-align: center; font-size: 12px; margin-top: 10px">
+          we appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <p style = "color: whitesmoke; font-size: 14px; position:absolute; bottom: 8px;">Coded by Mayank Kashyap</p>
+    <script src="./script.js"/>
+  </body>
+</html>
